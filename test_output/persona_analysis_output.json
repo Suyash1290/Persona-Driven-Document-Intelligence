@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "input_documents": [
+      "sample_document.pdf"
+    ],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    "processing_timestamp": "2025-07-28T04:39:03.088932",
+    "total_documents": 1
+  },
+  "extracted_sections": [
+    {
+      "document": "sample_document.pdf",
+      "page_number": 7,
+      "section_title": "3. Job-to-be-Done: Concrete task the persona needs to accomplish",
+      "content": "Document collection, persona and job-to-be-done can be very diverse. So, the solution that teams need to build needs to be generic to generalize to this variety.  Documents can be from any domain Example Research papers, schoolcollege books, financial reports, news articles etc.  Persona can again be very diverse Example Researcher, Student, Salesperson, Journalist, Entrepreneur etc  Job-to-be-done This will be related to the persona Example Provide a literature review for a given topic and available research papers, What should I study for Organic Chemistry given the chemistry documents, Summarize the financials of corporation xyz given the detailed year end financial reports etc. Sample Test Cases Test Case 1 Academic Research  Documents 4 research papers on Graph Neural Networks for Drug Discovery  Persona PhD Researcher in Computational Biology  Job Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+      "importance_rank": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 8,
+      "section_title": "3. Sub-section Analysis:",
+      "content": "a. Document b. c. Refined Text d. Page Number Constraints  Must run on CPU only  Model size  1GB  Processing time  60 seconds for document collection 3-5 documents  No internet access allowed during execution",
+      "importance_rank": 2
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 9,
+      "section_title": "methodology)",
+      "content": "Dockerfile and execution instructions Sample inputoutput for testing  Scoring Criteria Criteria Max Points Description Section Relevance 60 How well selected sections match persona  job requirements with proper stack ranking Sub-Section Relevance 40 Quality of granular subsection extraction and ranking",
+      "importance_rank": 3
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 5,
+      "section_title": "16 GB RAM configurations",
+      "content": "Scoring Criteria Criteria Max Points Heading Detection Accuracy Precision  Recall 25 Performance Time  Size Compliance 10 Bonus Multilingual Handling e.g., Japanese 10 Total 45 Submission Checklist",
+      "importance_rank": 4
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 2,
+      "section_title": "Content",
+      "content": "Welcome to the Connecting the Dots Challenge Rethink Reading. Rediscover Knowledge What if every time you opened a PDF, it didnt just sit thereit spoke to you, connected ideas, and narrated meaning across your entire library? Thats the future were building  and we want you to help shape it. In the Connecting the Dots Challenge, your mission is to reimagine the humble PDF as an intelligent, interactive experienceone that understands structure, surfaces insights, and responds to you like a trusted research companion. The Journey Ahead  Round 1 Kick things off by building the brains  extract structured outlines from raw PDFs with blazing speed and pinpoint accuracy. Then, power it up with on-device intelligence that understands sections and links related ideas together.  Round 2 Its showtime! Build a beautiful, intuitive reading webapp using Adobes PDF Embed API. You will be using your Round 1 work to design a futuristic webapp. Why This Matters In a world flooded with documents, what wins is not more content  its context. Youre not just building tools  youre building the future of how we read, learn, and connect. No matter your background  ML hacker, UI builder, or insight whisperer  this is your stage. Are you in? Its time to read between the lines. Connect the dots. And build a PDF experience that feels like magic. Lets go.",
+      "importance_rank": 5
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 3,
+      "section_title": "{ \"level\": \"H1\", \"text\": \"Introduction\", \"page\": 1 },",
+      "content": "level H2, text What is AI?, page 2 ,  level H3, text History of AI, page 3    You Will Be Provided",
+      "importance_rank": 6
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 8,
+      "section_title": "",
+      "content": "Test Case 2 Business Analysis  Documents 3 annual reports from competing tech companies 2022-2024  Persona Investment Analyst  Job Analyze revenue trends, RD investments, and market positioning strategies Test Case 3 Educational Content  Documents 5 chapters from organic chemistry textbooks  Persona Undergraduate Chemistry Student  Job Identify key concepts and mechanisms for exam preparation on reaction kinetics Required Output  Output JSON format Refer challenge1b_output.json The output should contain",
+      "importance_rank": 7
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 7,
+      "section_title": "",
+      "content": "Round 1B Persona-Driven Document Intelligence Theme Connect What Matters  For the User Who Matters Challenge Brief For Participants You will build a system that acts as an intelligent document analyst, extracting and prioritizing the most relevant sections from a collection of documents based on a specific persona and their job-to-be-done. Input Specification",
+      "importance_rank": 8
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 3,
+      "section_title": "",
+      "content": "Round 1A Understand Your Document Challenge Theme Connecting the Dots Through Docs Your Mission Youre handed a PDF  but instead of simply reading it, youre tasked with making sense of it like a machine would. Your job is to extract a structured outline of the document  essentially the Title, and headings like H1, H2, and H3  in a clean, hierarchical format. This outline will be the foundation for the rest of your hackathon journey. Why This Matters PDFs are everywhere  but machines dont naturally understand their structure. By building an outline extractor, youre enabling smarter document experiences, like semantic search, recommendation systems, and insight generation. What You Need to Build You must build a solution that  Accepts a PDF file up to 50 pages  Extracts o Title o Headings H1, H2, H3 with level and page number  Outputs a valid JSON file in the format below  title Understanding AI, outline",
+      "importance_rank": 9
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 7,
+      "section_title": "2. Document Collection: 3-10 related PDFs Persona Definition: Role",
+      "content": "description with specific expertise and focus areas",
+      "importance_rank": 10
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 5,
+      "section_title": "4. A README.md that explains:",
+      "content": "o Your approach o Any models or libraries used o How to build and run your solution This is purely for documentation purpose, your solution should run using the Expected Execution section above. Pro Tips  Dont rely solely on font sizes for heading level determination  headings in some PDFs break that assumption.  Test your solution across both simple and complex PDFs.  Make your code modular  youll reuse this structure in Round",
+      "importance_rank": 11
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 5,
+      "section_title": "",
+      "content": "Model size  200MB if used Network No internet access allowed Runtime Must run on CPU amd64, your solution should run on the system with 8 CPUs and",
+      "importance_rank": 12
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 8,
+      "section_title": "1. Metadata:",
+      "content": "a. Input documents b. Persona c. Job to be done d. Processing timestamp",
+      "importance_rank": 13
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 6,
+      "section_title": "Content",
+      "content": "Important  Please keep your Git Repo private till the competition deadline, you will be informed, when to make the repo public. What Not to Do  Do not hardcode headings or file-specific logic  Do not make API or web calls  Do not exceed the runtimemodel size constraints Public Dataset Folder For Sample Input and Output Files, please refer to the appendix",
+      "importance_rank": 14
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 8,
+      "section_title": "2. Extracted Section:",
+      "content": "a. Document b. Page number c. Section title d. Importance_rank",
+      "importance_rank": 15
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 9,
+      "section_title": "",
+      "content": "Deliverables  approach_explanation.md 300-500 words explaining",
+      "importance_rank": 16
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 10,
+      "section_title": "Content",
+      "content": "Appendix httpsgithub.comjhaaj08Adobe-India- Hackathon25.git",
+      "importance_rank": 17
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 4,
+      "section_title": "4. Sample Solution",
+      "content": "Docker Requirements   Please ensure your Dockerfile is compatible with AMD64 architecture. Since we will build and run the image on an AMD64 machine, your base image and any dependencies should support linuxamd64. Optionally, you can include the following in your Dockerfile to explicitly specify the platform FROM -- platformlinuxamd64 base_image  CPU architecture amd64 x86_64  No GPU dependencies  Model size if used  200MB  Should work offline  no networkinternet calls Expected Execution We will build the docker image using the following command docker build --platform linuxamd64 -t mysolutionnamesomerandomidentifier After building the image, we will run the solution using the run command specified in the submitted instructions. docker run --rm -v pwdinputappinput -v pwdoutputappoutput -- network none mysolutionnamesomerandomidentifier Your container should  Automatically process all PDFs from appinput directory, generating a corresponding filename.json in appoutput for each filename.pdf  output.json Constraints Constraint Requirement Execution time  10 seconds for a 50-page",
+      "importance_rank": 18
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "sample_document.pdf",
+      "page_number": 7,
+      "refined_text": "Sample Test Cases Test Case 1 Academic Research  Documents 4 research papers on Graph Neural Networks for Drug Discovery  Persona PhD Researcher in Computational Biology  Job Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks Persona can again be very diverse Example Researcher, Student, Salesperson, Journalist, Entrepreneur etc  Job-to-be-done This will be related to the persona Example Provide a literature review for a given topic and available research papers, What should I study for Organic Chemistry given the chemistry documents, Summarize the financials of corporation xyz given the detailed year end financial reports etc. Documents can be from any domain Example Research papers, schoolcollege books, financial reports, news articles etc.",
+      "original_section": "3. Job-to-be-Done: Concrete task the persona needs to accomplish",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 8,
+      "refined_text": "a. Document b. c. Refined Text d. Page Number Constraints  Must run on CPU only  Model size  1GB  Processing time  60 seconds for document collection 3-5 documents  No internet access allowed during execution",
+      "original_section": "3. Sub-section Analysis:",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 9,
+      "refined_text": "Dockerfile and execution instructions Sample inputoutput for testing  Scoring Criteria Criteria Max Points Description Section Relevance 60 How well selected sections match persona  job requirements with proper stack ranking Sub-Section Relevance 40 Quality of granular subsection extraction and ranking",
+      "original_section": "methodology)",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 5,
+      "refined_text": "Scoring Criteria Criteria Max Points Heading Detection Accuracy Precision  Recall 25 Performance Time  Size Compliance 10 Bonus Multilingual Handling e.g., Japanese 10 Total 45 Submission Checklist",
+      "original_section": "16 GB RAM configurations",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 2,
+      "refined_text": "In the Connecting the Dots Challenge, your mission is to reimagine the humble PDF as an intelligent, interactive experienceone that understands structure, surfaces insights, and responds to you like a trusted research companion.",
+      "original_section": "Content",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 3,
+      "refined_text": "level H2, text What is AI?, page 2 ,  level H3, text History of AI, page 3    You Will Be Provided",
+      "original_section": "{ \"level\": \"H1\", \"text\": \"Introduction\", \"page\": 1 },",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 8,
+      "refined_text": "Test Case 2 Business Analysis  Documents 3 annual reports from competing tech companies 2022-2024  Persona Investment Analyst  Job Analyze revenue trends, RD investments, and market positioning strategies Test Case 3 Educational Content  Documents 5 chapters from organic chemistry textbooks  Persona Undergraduate Chemistry Student  Job Identify key concepts and mechanisms for exam preparation on reaction kinetics Required Output  Output JSON format Refer challenge1b_output.json The output should contain",
+      "original_section": "",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 7,
+      "refined_text": "Round 1B Persona-Driven Document Intelligence Theme Connect What Matters  For the User Who Matters Challenge Brief For Participants You will build a system that acts as an intelligent document analyst, extracting and prioritizing the most relevant sections from a collection of documents based on a specific persona and their job-to-be-done. Input Specification",
+      "original_section": "",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 3,
+      "refined_text": "Youre handed a PDF  but instead of simply reading it, youre tasked with making sense of it like a machine would. Your job is to extract a structured outline of the document  essentially the Title, and headings like H1, H2, and H3  in a clean, hierarchical format.",
+      "original_section": "",
+      "subsection_index": 1
+    },
+    {
+      "document": "sample_document.pdf",
+      "page_number": 7,
+      "refined_text": "description with specific expertise and focus areas",
+      "original_section": "2. Document Collection: 3-10 related PDFs Persona Definition: Role",
+      "subsection_index": 1
+    }
+  ]
+}
